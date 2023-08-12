@@ -1,0 +1,29 @@
+{
+    "name": "winter/wn-drivergoogledrive-plugin",
+    "type": "winter-plugin",
+    "description": "Driver that adds support for Google Drive as a filesystem to Winter CMS.",
+    "homepage": "https://github.com/wintercms/wn-drivergoogledrive-plugin",
+    "keywords": ["winter", "google", "drive", "driver", "laravel", "winter cms", "wintercms"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Towers",
+            "email": "wintercms@luketowers.ca",
+            "homepage": "https://luketowers.ca",
+            "role": "Author"
+        },
+        {
+            "name": "Winter CMS Maintainers",
+            "homepage": "https://wintercms.com",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/wintercms/wn-drivergoogledrive-plugin/issues",
+        "discord": "https://discord.gg/D5MFSPH6Ux",
+        "source": "https://github.com/wintercms/wn-drivergoogledrive-plugin"
+    },
+    "require": {
+        "masbug/flysystem-google-drive-ext": "~2.2"
+    }
+}
